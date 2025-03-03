@@ -153,7 +153,7 @@ use Spatie\Permission\Traits\HasRoles;
  */
 class Student extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable, HasRoles;
+    use HasApiTokens, HasFactory, Notifiable;
 
     public $fillable = [
         'student_id',
